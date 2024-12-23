@@ -1,16 +1,20 @@
-# database
+Flutter SQFLite App
+This Flutter app demonstrates basic database operations using the sqflite package.
 
-A new Flutter project.
+Features
+Insert: Add new records to the database.
+Retrieve: View all records stored in the database.
+Update: Modify existing records.
+Delete: Remove records from the database
 
-## Getting Started
+Getting Started
+Install dependencies:
+flutter pub get
+Run the app:
+flutter run
+Dependencies
+sqflite: SQLite database for Flutter.
+path_provider: Access file paths for storing the database.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Note
+This app focuses on CRUD operations with a simple and clean UI.
